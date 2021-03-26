@@ -18,22 +18,22 @@ We provide variant IDs in three formats: 1) `chromosome:position:ref:alt` in GRC
 
 ### GRCh37
 
-- Pre-compmuted PCA loadings: [hgdp_tgp_pca_covid19hgi_snps_loadings.GRCh37.plink.tsv](https://storage.googleapis.com/covid19-hg-public/pca_projection/hgdp_tgp_pca_covid19hgi_snps_loadings.GRCh37.plink.tsv)
-- Reference allele frequencies: [hgdp_tgp_pca_covid19hgi_snps_loadings.GRCh37.plink.afreq](https://storage.googleapis.com/covid19-hg-public/pca_projection/hgdp_tgp_pca_covid19hgi_snps_loadings.GRCh37.plink.afreq)
+- Pre-compmuted PCA loadings: **[PATH]**
+- Reference allele frequencies: **[PATH]**
 
 ### GRCh38
 
-- Pre-compmuted PCA loadings: [hgdp_tgp_pca_covid19hgi_snps_loadings.GRCh38.plink.tsv](https://storage.googleapis.com/covid19-hg-public/pca_projection/hgdp_tgp_pca_covid19hgi_snps_loadings.GRCh38.plink.tsv)
-- Reference allele frequencies: [hgdp_tgp_pca_covid19hgi_snps_loadings.GRCh38.plink.afreq](https://storage.googleapis.com/covid19-hg-public/pca_projection/hgdp_tgp_pca_covid19hgi_snps_loadings.GRCh38.plink.afreq)
+- Pre-compmuted PCA loadings: **[PATH]**
+- Reference allele frequencies: **[PATH]**
 
 ### rsid
 
-- Pre-compmuted PCA loadings: [hgdp_tgp_pca_covid19hgi_snps_loadings.rsid.plink.tsv](https://storage.googleapis.com/covid19-hg-public/pca_projection/hgdp_tgp_pca_covid19hgi_snps_loadings.rsid.plink.tsv)
-- Reference allele frequencies: [hgdp_tgp_pca_covid19hgi_snps_loadings.rsid.plink.afreq](https://storage.googleapis.com/covid19-hg-public/pca_projection/hgdp_tgp_pca_covid19hgi_snps_loadings.rsid.plink.afreq)
+- Pre-compmuted PCA loadings: **[PATH]**
+- Reference allele frequencies: **[PATH]**
 
 ### For advanced users: Hail format
 
-For advanced users, we also provide the files in Hail format here: `gs://covid19-hg-public/pca_projection/hgdp_tgp_pca_covid19hgi_snps_loadings.ht`.
+For advanced users, we also provide the files in Hail format here: **[PATH]**.
 
 Please refer to [our example script](../hail_project_pc.py) and [the Hail documentation](https://hail.is/) for further information.
 

@@ -329,7 +329,6 @@ option_list <- list(
   optparse::make_option(
     "--reference-score-file",
     type = "character",
-    default = "https://storage.googleapis.com/covid19-hg-public/pca_projection/hgdp_tgp_pca_covid19hgi_snps_scores.txt.gz",
     help = "Path to a reference score file [Required if your system doesn't have the Internet access]",
     dest = "reference_score_file"
   ),
@@ -376,6 +375,10 @@ if (is.null(args$ancestry) & (is.null(args$ancestry_file) | is.null(args$ancestr
 
 if (is.null(args$phenotype_file) | is.null(args$phenotype_col)) {
   stop("Please specifiy --phenotype-file and --phenotype-col.")
+}
+
+if (is.null(args$reference_score_file)) {
+  stop("Please specify --reference-score-file.")
 }
 
 # Only plot even number of cohort PCs

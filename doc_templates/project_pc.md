@@ -1,7 +1,5 @@
 # Project PC
 
-**Note: If you download `project_pc.sh` before March 25, please update the code and rerun. The update one specifies "variance-standardize" instead of "center".**
-
 ## Set cohort-specific variables
 
 Before running please edit `project_pc.sh` with your cohort-specific parameters. Specifically:
